@@ -4,7 +4,7 @@ import styles from './page.module.css';
 
 
 async function getData() {
-    const res = await fetch('https://dummyjson.com/products?limit=100');
+    const res = await fetch('https://dummyjson.com/products?limit=6');
 
     if(!res.ok) {
         throw new Error('Failed to fetch data')
