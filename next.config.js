@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: ['i.dummyjson.com']
     },
-"output: export"
+output: "export"
 }
 
 module.exports = nextConfig
