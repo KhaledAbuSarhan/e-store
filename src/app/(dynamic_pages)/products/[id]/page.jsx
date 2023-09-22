@@ -21,7 +21,6 @@ export async function generateMetadata({params: {id}}) {
 
 export default async function Post({params:{id}}) {
     const  product  = await getData(id)
-    console.log(product)
     return (
     <div className={styles.container}>
         <header className={styles.header}>
