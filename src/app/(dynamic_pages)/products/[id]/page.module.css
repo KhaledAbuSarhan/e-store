@@ -1,19 +1,6 @@
-.header {
-
-}
-
 .container {
-
+    height: 80vh;
 }
-
-.info {
-
-}
-
-.title {
-
-}
-
 .description {
     font-size: 18px;
 }

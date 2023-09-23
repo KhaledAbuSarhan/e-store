@@ -6,7 +6,7 @@ export const metadata = {
 }
 export default function Contact() {
     return (
-      <div className="contact">
+      <div className={styles.contact}>
       <h1>Contact Us</h1>
       <p>Have questions, concerns, or feedback? We&apos;d love to hear from you!</p>
 
